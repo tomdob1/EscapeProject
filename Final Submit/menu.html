@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Escape</title> <!--displays the title within the tab-->
+<link rel="stylesheet" type="text/css" href="escape.css"></link><!--links to the css file-->
+</head>
+
+<body>
+<center><h1>Escape</h1></center><!--Heading at the top of the page-->
+<center><div id="textDiv"><button style="visibility:hidden;" type="button" id="menuButton" onclick="window.location.reload()" class="button2" disabled>Back To Menu</button></div></center><!--back to menu button not visible on load-->
+<center><pre id="howToPlayOutput" type="text" class="howToClass" align="left"></pre></center><!--how to play output. Displays text once the how to play button has been pressed-->
+<center><canvas id="myCanvas" width="450" height="80"></canvas></center><!--canvas used to display messages-->
+<center><table id="grid"><!--table used as the grid within the game-->
+
+</table>
+<div id="buttonDiv"><!--div containing buttons-->
+	<center>
+	<br>
+	<button style="visibility:visible;" id="startButton" type="button" onclick="loadFunction()" class="button">Start Game</button><!-- start button visible on load https://www.w3schools.com/jsref/prop_style_visibility.asp-->
+	<br><br><!--https://www.webmasterworld.com/html/3195621.htm-->
+	<button style="visibility:visible;" id="howToPlayButton" type="button" onclick="howToFunction()" class="button">How To Play</button> <!-- how to play button visible on load -->
+	<br><br>
+	<button style="visibility:visible;" id="highScoreButton" type="button" onclick="highScoreFunction()" class="button">High Score</button><!--high score button visible on load-->
+	</center>
+</div>
+	
+</center>
+
+<script src="escape4.js"></script> <!-- used to link the javascript file to the html page -->
+</body>
+</html>

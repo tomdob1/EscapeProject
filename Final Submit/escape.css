@@ -1,0 +1,31 @@
+ 
+ h1{ /*sets the font of all headings to impact with a size of 28*/
+	font-family: Impact;
+	font-size: 50px;
+}
+
+ body{ /*sets the background colour of the game to orange, as well as setting the font and font size*/
+	background-color: orange;
+	font-family: Impact;
+	font-size: 25px;
+	
+}
+
+ td{ /*sets the width and height of a standard cell within the table https://www.w3schools.com/css/css_table.asp*/
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	background-color: khaki;
+}
+
+
+
+button{ /*sets the width and height of buttons*/
+	height:80px;
+	width:200px;
+}
+
+.button2{ /*sets the width and height of the back to menu button, using its class name https://www.w3schools.com/css/css_syntax.asp*/
+	height:20px;
+	width:150px;
+}
